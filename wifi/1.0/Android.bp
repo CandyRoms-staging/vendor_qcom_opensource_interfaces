@@ -4,6 +4,7 @@ hidl_interface {
     name: "vendor.qti.hardware.wifi@1.0",
     root: "vendor.qti.hardware.wifi",
     product_specific: true,
+    owner: "qcom",
     srcs: [
         "IWifiVendorStaIface.hal",
     ],
