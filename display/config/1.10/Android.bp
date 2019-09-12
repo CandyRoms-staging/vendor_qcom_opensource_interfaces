@@ -3,10 +3,10 @@
 hidl_interface {
     name: "vendor.display.config@1.10",
     root: "vendor.display",
-    product_specific: true,
+    owner: "qcom",
     srcs: [
-        "IDisplayCWBCallback.hal",
         "IDisplayConfig.hal",
+        "IDisplayCWBCallback.hal",
     ],
     interfaces: [
         "android.hidl.base@1.0",
